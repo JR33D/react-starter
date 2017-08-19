@@ -1,0 +1,42 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "React App with Jest unit tests",
+  "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "jest",
+    "node",
+    "react-dom"
+  ],
+  "author": "Jeremy Reed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JR33D/react-starter"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/node": "^8.0.24",
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.3",
+    "@types/react-redux": "^5.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-scripts-ts": "2.6.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^2.8.6",
+    "enzyme": "^2.9.1",
+    "react-test-renderer": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
